@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <link rel="stylesheet" href="assets\css\styles.css">
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+
+    <div>
+      <ul>
+        <li><a class="active" id="Main" href="index.html"><div>Main</div></a></li>
+      </ul>
+    </div>
+    
+    
+    <div style="margin-left:25%;padding:1px 16px;height:1000px;">
+      <h2><button onClick="testFunc()" type="button">TestButton</button></h2>
+      <div><span><span id = "numbers"></span></span></div>
+      <div><span><span id = "path"></span></span></div>
+      <p>Some text..</p>
+      <p>Some text..</p>
+      <p>Some text..</p>
+      <p>Some text..</p>
+      <p>Some text..</p>
+      <p>Some text..</p>
+    </div>
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+
+  </body>
+</html>
